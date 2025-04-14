@@ -30,7 +30,7 @@
 ;; (nova-eldoc 1)
 
 ;;; Code:
-
+(require 'markdown-mode)
 (require 'nova-utils)
 (unless (require 'eldoc-box nil t)
   (message "eldoc-box must be installed in order to use nova-eldoc"))
